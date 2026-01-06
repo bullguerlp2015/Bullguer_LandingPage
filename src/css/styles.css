@@ -10,7 +10,7 @@ body {
 }
 
 .page {
-    background-image: url('../img/bg.png'); /* O caminho aqui é relativo ao arquivo CSS */
+    background-image: url("../img/bg.png");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -120,6 +120,7 @@ footer small {
   font-size: 11px;
   letter-spacing: 2px;
 }
+
 
 
 
