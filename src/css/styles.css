@@ -10,9 +10,10 @@ body {
 }
 
 .page {
-  position: relative;
-  height: 100vh;
-  background: url(".//src/img/bg.png") center / cover no-repeat;
+    background-image: url('../img/bg.png'); /* O caminho aqui é relativo ao arquivo CSS */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .overlay {
@@ -119,5 +120,6 @@ footer small {
   font-size: 11px;
   letter-spacing: 2px;
 }
+
 
 
