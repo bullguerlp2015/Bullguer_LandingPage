@@ -44,14 +44,14 @@ body {
 
 .brand h1 {
   font-family: 'Anton', sans-serif;
-  font-size: 58px;
+  font-size: 90px;
   letter-spacing: 3px;
 }
 
 .line {
-  height: 6px;
+  height: 15px;
   background: #fff;
-  margin: 6px 0;
+  margin: 1px 0;
 }
 
 /* TAGLINE */
@@ -120,6 +120,7 @@ footer small {
   font-size: 11px;
   letter-spacing: 2px;
 }
+
 
 
 
